@@ -89,7 +89,7 @@ def main():
         principal = st.sidebar.number_input('Principal ($)', value=int())
         lifetime = st.sidebar.number_input('Lifetime (years)', value=30)
         yre = st.sidebar.number_input('Yearly Retirement Contributions/Expenses ($)*', value=int())
-        st.sidebar.write("*if net yeraly expenses, please include negative sign (-)")
+        st.sidebar.write("*if net yearly expenses, please include negative sign (-)")
         legacy_capital = st.sidebar.number_input('Legacy Capital ($)', value=int())
 
         start_year = st.sidebar.number_input('Start Year*', value = 1928)
